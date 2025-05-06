@@ -12,7 +12,6 @@ import android.util.Log;
 public class BluetoothStateReceiver extends BroadcastReceiver {
 
     private static final String TAG = "BluetoothStateReceiver";
-    android:exported="true"
 
     @Override
     public void onReceive(Context context, Intent intent) {
